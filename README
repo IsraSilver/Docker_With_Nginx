@@ -1,0 +1,32 @@
+# Project with Docker Image for Nginx and Custom index.html
+
+This project contains a Docker image that includes the Nginx web server and uses a custom `index.html` file. 
+The Docker image is built based on the official Nginx image.
+
+## How to Use
+
+1. Make sure you have Docker installed on your computer.
+
+2. Clone the project repository:
+
+   ```shell
+   git clone https://github.com/IsraSilver/Docker_With_Nginx
+
+3. Navigate to the project directory:
+  cd <project_directory>
+
+4. Place your own index.html file in the root directory of the project.
+
+5. Build the Docker image using the following command:
+
+docker build -t dockerfile .
+
+6. Run the container using the following command:
+
+docker run -d -p 80:80 --restart=always your_image_name
+
+The container will listen on port 80 on your host machine.
+
+7. Open a web browser and visit http://localhost or http://your_host to view your index.html file.
+
+

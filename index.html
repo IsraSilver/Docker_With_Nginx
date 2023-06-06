@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Wellcome from Ruslan</title>
+  <style>
+    body {
+      background-color: blue;
+      color: white;
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <h1>Wellcome!</h1>
+  <p>User name: <span id="username"></span></p>
+  <p>Operation system: <span id="os"></span></p>
+
+  <script>
+    var username = prompt('Enter your name:');
+    document.getElementById('username').textContent = username;
+
+    var os = window.navigator.platform;
+    document.getElementById('os').textContent = os;
+  </script>
+</body>
+</html>
