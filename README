@@ -10,7 +10,7 @@ The Docker image is built based on the official Nginx image.
 2. Clone the project repository:
 
    ```shell
-   git clone https://github.com/IsraSilver/Docker_With_Nginx
+   git clone https://github.com/IsraSilver/Docker_With_Nginx.git
 
 3. Navigate to the project directory:
   cd <project_directory>
